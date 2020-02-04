@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+
+.productContainer {
+  display: grid;
+  width: 100%;
+  min-height: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 100%;
+  grid-template-areas: "products cartInProducts";
+}
+
+.products {
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+}
+
+.productName {
+  color: #ad5b41;
+}
+
+.productPrice {
+  color: red;
+}
+
+.productButton {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 2%;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.productButton:hover {
+  opacity: 1;
+}
+
+.cartInProducts {
+  margin-left: 20%;
+}
+
+#cartButton {
+  background-color: #e72f3f;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#cartButton:hover {
+  opacity: 1;
+}
+
+.cart {
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+#productButton {
+  background-color: #e72f3f;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#productButton:hover {
+  opacity: 1;
+}

@@ -1,0 +1,71 @@
+{
+  "shoppingCart": [
+    {
+      "name": "Phone",
+      "price": "5000kr",
+      "img": "https://placeimg.com/640/480/any?t=1580124938542"
+    },
+    {
+      "name": "Laptop",
+      "price": "12000kr",
+      "img": "https://placeimg.com/640/480/any?t=1580124954781"
+    },
+    {
+      "name": "TV",
+      "price": "8000kr",
+      "img": "https://placeimg.com/640/480/any?t=1580124979211"
+    }
+  ],
+  "products": [
+    {
+      "name": "Phone",
+      "price": "5000kr",
+      "img": "https://placeimg.com/640/480/any?t=1580124938542"
+    },
+    {
+      "name": "Laptop",
+      "price": "12000kr",
+      "img": "https://placeimg.com/640/480/any?t=1580124954781"
+    },
+    {
+      "name": "TV",
+      "price": "8000kr",
+      "img": "https://placeimg.com/640/480/any?t=1580124979211"
+    },
+    {
+      "name": "Playstation",
+      "price": "4000kr",
+      "img": "https://placeimg.com/640/480/any?t=1580125006817"
+    },
+    {
+      "name": "Xbox",
+      "price": "3000kr",
+      "img": "https://placeimg.com/640/480/any?t=1580125020495"
+    },
+    {
+      "name": "Nintendo",
+      "price": "3500kr",
+      "img": "https://placeimg.com/640/480/any?t=1580124868523"
+    },
+    {
+      "name": "VR",
+      "price": "5000kr",
+      "img": "https://placeimg.com/640/480/any?t=1580125387438"
+    },
+    {
+      "name": "Computer",
+      "price": "15000kr",
+      "img": "https://placeimg.com/640/480/any?t=1580125440902"
+    },
+    {
+      "name": "Keyboard",
+      "price": "1200kr",
+      "img": "https://placeimg.com/640/480/any?t=1580125497065"
+    },
+    {
+      "name": "Mouse",
+      "price": "600kr",
+      "img": "https://placeimg.com/640/480/any?t=1580125527390"
+    }
+  ]
+}
