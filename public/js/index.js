@@ -4,7 +4,6 @@ const displayProducts = document.querySelector(".products");
 const productURL = "http://localhost:8000/api/products";
 const cartURL = "http://localhost:8000/api/cart";
 const addProductURL = "http://localhost:8000/api/product/cart";
-//import { getProducts } from "/modules/endpoints" // ska ligga i public mappen
 
 fetch(productURL, { method: "GET" })
   .then(response => {
@@ -60,9 +59,7 @@ const displayProduct = products => {
     const name = products[i].name;
     addButtonElem.addEventListener("click", () => {
       addProductToCart(name);
-      console.log(name);
     });
-    console.log(products[i].name);
   }
 };
 

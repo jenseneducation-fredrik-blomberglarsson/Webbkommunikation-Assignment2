@@ -49,9 +49,7 @@ const displayCart = products => {
     const name = products[i].name;
     removeButtonElem.addEventListener("click", () => {
       removeProductFromCart(name);
-      console.log(name);
     });
-    console.log(products[i].name);
   }
 };
 
